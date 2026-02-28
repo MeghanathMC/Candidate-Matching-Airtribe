@@ -5,7 +5,13 @@ This project is an AI-powered candidate-to-job matching automation tool designed
 
 The goal is to eliminate the manual bottleneck of reviewing dozens of learner resumes against new job descriptions. Instead of simple keyword matching, this tool uses a sophisticated AI agent to reason about a candidate's fit, career trajectory, and specific leverage points—producing a structured, actionable dashboard that a non-technical career counselor can act on immediately.
 
+<img width="1562" height="785" alt="image" src="https://github.com/user-attachments/assets/2a4527e2-ebde-43bc-9605-851764c6eb1a" />
+
+
 ---
+
+<img width="1652" height="768" alt="image" src="https://github.com/user-attachments/assets/b6ef86e7-7444-448b-ac8b-ae56d17bb21a" />
+
 
 ## 🚀 How It Works
 1.  **Input Collection**: The user provides a Job Description (either by pasting text or uploading a PDF) and a set of candidate profiles (individual PDFs or a ZIP archive containing multiple resumes).
@@ -22,7 +28,12 @@ The goal is to eliminate the manual bottleneck of reviewing dozens of learner re
     *   **Honest Concerns**: Red flags, compensation hints, or domain gaps.
     *   **Talking Points**: Copy-paste ready introductions for hiring partners.
 
+<img width="1060" height="812" alt="image" src="https://github.com/user-attachments/assets/3eac2ed8-7219-49f0-a1e3-e0711b20acff" />
+
+
 ---
+
+<img width="1586" height="854" alt="image" src="https://github.com/user-attachments/assets/efdeddb3-8a1e-4f22-9497-f78b34a3a12e" />
 
 ## 🛠️ Technical Stack
 *   **AI Model**: `gpt-4o-mini` (OpenAI) – chosen for its high reasoning-to-latency ratio and structured JSON output capabilities.
