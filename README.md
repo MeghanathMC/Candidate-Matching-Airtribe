@@ -48,9 +48,9 @@ The system is explicitly prompted to **avoid simple keyword matching**.
 
 ## 🛠️ Future Improvements
 If given more time, I would implement:
-1.  **Semantic Pre-filtering (RAG)**: For pools of 500+ candidates, I would use vector embeddings to identify the top 50 candidates before running the deep reasoning agent, reducing costs and latency.
-2.  **Worker Queue**: Moving the processing of large ZIP files to a background worker (like BullMQ or Celery) to avoid request timeouts.
-3.  **Human-in-the-Loop Feedback**: Allow career counselors to "Correct" the AI's reasoning. This feedback would be stored to fine-tune the system prompt over time.
-4.  **Multi-Resume Comparison**: A "comparison mode" to view two top-scoring candidates side-by-side on specific criteria like "Domain Knowledge" or "Product Vision."
-5.  **Slack/Notion Communication Automation**: To meet the team where they work:
+1.  **Slack/Notion Communication Automation**: To meet the team where they work:
     *   **Slack Automation**: A bot where airtribe's career service team members can upload a JD pdf and ZIP file directly to a slack channel. The system would trigger an analysis and post back a summary of the Top 5 candidates as a thread, keeping the team updated without them leaving Slack. Same goes with Notion too. We maintaion a database for this automation, and have each row for new job with columns JD, and zip file. when a new JD is added, the system would trigger an analysis and post back a summary of the Top 5 candidates as a thread, keeping the team updated without them leaving Notion.
+
+2.  **Human-in-the-Loop Feedback**: Allow career counselors to "Correct" the AI's reasoning. This feedback would be stored to fine-tune the system prompt over time.
+
+3.  **Multi-Resume Comparison**: A "comparison mode" to view two top-scoring candidates side-by-side on specific criteria like "Domain Knowledge" or "Product Vision."
